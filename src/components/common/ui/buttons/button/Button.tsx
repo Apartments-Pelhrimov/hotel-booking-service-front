@@ -1,10 +1,7 @@
 import React, { FC, MouseEventHandler, ReactNode } from 'react';
 import { Box, Button as ButtonMUI, Typography } from '@mui/material';
 
-import {
-  ButtonSize,
-  ButtonVariant,
-} from '@/components/common/ui/button/interfaces';
+import { ButtonSize, ButtonVariant } from '../interfaces';
 
 import * as styles from './Button.styles';
 
