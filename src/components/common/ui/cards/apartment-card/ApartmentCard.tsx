@@ -26,7 +26,9 @@ const ApartmentCard: FC<ApartmentCardProps> = ({
     <Card sx={styles.card}>
       <CardMedia component="img" image={image} />
       <CardContent>
-        <Typography variant="h7ElegantBold">{text}</Typography>
+        <Box sx={styles.title}>
+          <Typography variant="h7ElegantBold">{text}</Typography>
+        </Box>
         <Box sx={styles.people}>
           <UserGroupIcon />
           <Typography variant="body2">{`${beds} ${getPeopleEnding(
@@ -35,7 +37,7 @@ const ApartmentCard: FC<ApartmentCardProps> = ({
         </Box>
         <Box sx={styles.reservation}>
           <Box sx={styles.price}>
-            <Typography variant="h2Elegant" sx={{ color: 'green.300' }}>
+            <Typography variant="h2Elegant" sx={styles.sum}>
               {price}
             </Typography>
             <Typography variant="body1">Kč /noc</Typography>

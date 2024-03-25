@@ -30,3 +30,11 @@ export const price: SxProps<Theme> = {
   justifyContent: 'start',
   gap: '8px',
 };
+
+export const sum: SxProps<Theme> = {
+  color: 'green.300',
+};
+
+export const title: SxProps<Theme> = {
+  marginBottom: '16px',
+};
