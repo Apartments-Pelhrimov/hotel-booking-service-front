@@ -15,7 +15,6 @@ export const button = (
   borderRadius: '0px',
   textTransform: 'none',
   gap: '10px',
-  margin: '8px',
   ...(size === ButtonSize.SMALL && {
     padding: '6px 12px',
   }),
