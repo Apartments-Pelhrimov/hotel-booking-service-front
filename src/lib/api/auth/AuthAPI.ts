@@ -1,20 +1,7 @@
+import { LoginData, LoginResponse, RegisterData } from '@/lib/api/auth/types';
+import StorageUtil from '@/lib/utils/StorageUtil';
+
 import { client } from '../client';
-
-export interface RegisterData {
-  firstName: string | undefined;
-  lastName: string | undefined;
-  phone: string | undefined;
-  email: string | undefined;
-  password: string | undefined;
-}
-
-const createBasicAuthHeader = (email: string, password: string) => {
-  return {
-    headers: {
-      Authorization: 'Basic ' + btoa(email + ':' + password),
-    },
-  };
-};
 
 class AuthAPI {
   async register(body: RegisterData) {
@@ -22,17 +9,14 @@ class AuthAPI {
     return data;
   }
 
-  async activate(code: string) {
-    const { data } = await client.post<string>(
-      `/auth/activate?code=${code}`,
-      {},
-    );
+  async activate(token: string) {
+    const { data } = await client.post<string>('/auth/activate', { token });
     return data;
   }
 
-  async login(email: string, password: string) {
-    const authHeader = createBasicAuthHeader(email, password);
-    const { data } = await client.post<string>('/auth/register', authHeader);
+  async login(body: LoginData) {
+    const { data } = await client.post<LoginResponse>('/auth/login', body);
+    StorageUtil.setToken(data.token);
     return data;
   }
 }
