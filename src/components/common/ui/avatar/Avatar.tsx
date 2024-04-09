@@ -12,9 +12,9 @@ interface AvatarProps {
   size?: AvatarSize;
 }
 const Avatar: FC<AvatarProps> = ({ user, size = AvatarSize.REGULAR }) => {
-  const hasAvatar = !!user?.avatar;
+  const hasAvatar = !!user?.photo;
   return hasAvatar ? (
-    <AvatarMUI src={user?.avatar} sx={styles.avatar(size)} />
+    <AvatarMUI src={user?.photo} sx={styles.avatar(size)} />
   ) : (
     <AvatarMUI sx={styles.emptyAvatar(size)}>
       <UserCircleIcon />
