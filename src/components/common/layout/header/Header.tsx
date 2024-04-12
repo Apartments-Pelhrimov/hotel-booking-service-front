@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { FC } from 'react';
 import { AppBar, Box, Link, Toolbar } from '@mui/material';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
@@ -15,7 +15,7 @@ import Button from '../../ui/buttons/button';
 
 import * as styles from './Header.styles';
 
-const Header = () => {
+const Header: FC = () => {
   const path = usePathname() as string;
 
   return (
