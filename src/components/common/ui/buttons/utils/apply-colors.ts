@@ -13,7 +13,7 @@ const buttonColors: ButtonColorsMap = {
       'green.500',
       'green.300',
       'green.400',
-      'green.400',
+      'green.300',
       'grey.300',
     ],
     textColor: [
@@ -27,11 +27,11 @@ const buttonColors: ButtonColorsMap = {
   },
   [ButtonVariant.OUTLINE]: {
     backgroundColor: [
-      'white.main',
+      'transparent',
       'rgba(116, 160, 121, 0.2)',
       'rgba(116, 160, 121, 0.4)',
       'rgba(116, 160, 121, 0.3)',
-      'white.main',
+      'transparent',
     ],
     borderColor: [
       'green.500',

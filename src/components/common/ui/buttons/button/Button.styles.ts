@@ -43,7 +43,7 @@ export const button = (
       backgroundOpacity: 0.4,
     }),
   },
-  '&:focused': {
+  '&:focus': {
     backgroundColor: applyColors(variant, ButtonState.FOCUSED).backgroundColor,
     borderColor: applyColors(variant, ButtonState.FOCUSED).borderColor,
     color: applyColors(variant, ButtonState.FOCUSED).textColor,
