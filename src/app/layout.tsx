@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   description: 'Apartmány Pelhřimov',
 };
 
+const bodyStyles = {
+  margin: 0,
+  padding: 0,
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -26,7 +31,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </Head>
-      <body>
+      <body style={bodyStyles}>
         <ThemeProvider theme={theme}>{children}</ThemeProvider>
       </body>
     </html>

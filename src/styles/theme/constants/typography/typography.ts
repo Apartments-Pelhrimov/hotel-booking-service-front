@@ -2,12 +2,12 @@ import { TypographyOptions } from '@mui/material/styles/createTypography';
 import { Cormorant } from 'next/font/google';
 import { Krub } from 'next/font/google';
 
-const cormorant = Cormorant({
+export const cormorant = Cormorant({
   subsets: ['cyrillic', 'latin', 'latin-ext'],
   weight: ['300', '400', '500', '600', '700'],
 });
 
-const krub = Krub({
+export const krub = Krub({
   subsets: ['latin', 'latin-ext'],
   weight: ['300', '400', '500', '600', '700'],
 });

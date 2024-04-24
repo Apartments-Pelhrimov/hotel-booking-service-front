@@ -5,7 +5,7 @@ import { AppBar, Box, Link, Toolbar } from '@mui/material';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
-import { mainHeaderLinks } from '@/components/common/layout/header/interfaces';
+import { MainHeaderLinks } from '@/components/common/layout/header/interfaces';
 import {
   ButtonSize,
   ButtonVariant,
@@ -30,7 +30,7 @@ const Header: FC = () => {
           />
         </Link>
         <Toolbar sx={styles.linkList}>
-          {mainHeaderLinks.map((link, index) => (
+          {MainHeaderLinks.map((link, index) => (
             <Link
               href={link.href}
               key={index}

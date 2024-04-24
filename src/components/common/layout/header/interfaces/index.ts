@@ -1,9 +1,12 @@
-interface Link {
+import React from 'react';
+
+export interface Link {
   text: string;
   href: string;
+  icon?: React.ReactNode;
 }
 
-export const mainHeaderLinks: Link[] = [
+export const MainHeaderLinks: Link[] = [
   {
     text: 'DOMOV',
     href: '/',
