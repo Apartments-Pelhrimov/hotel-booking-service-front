@@ -60,10 +60,7 @@ const Footer = () => {
             <Stack flexDirection="row" key={index} sx={styles.iconText}>
               {contact.icon}
               {contact.link && (
-                <Link
-                  href={contact.link}
-                  sx={styles.underlineLink}
-                >
+                <Link href={contact.link} sx={styles.underlineLink}>
                   {contact.text}
                 </Link>
               )}
@@ -81,11 +78,7 @@ const Footer = () => {
           </Typography>
           {FooterAddress.map((address, index) =>
             address.link ? (
-              <Link
-                key={index}
-                href={address.link}
-                sx={styles.underlineLink}
-              >
+              <Link key={index} href={address.link} sx={styles.underlineLink}>
                 {address.text}
               </Link>
             ) : (
