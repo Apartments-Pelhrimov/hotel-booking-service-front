@@ -2,14 +2,13 @@ import { SxProps, Theme } from '@mui/material/styles';
 
 export const footer: SxProps<Theme> = {
   background:
-    "linear-gradient(to right, rgba(60, 89, 63, 1) 50%, rgba(60, 89, 63, 0.8) 100%), url('/main-background.jpg')",
+    "linear-gradient(to right, rgba(60, 89, 63, 1) 50%, rgba(60, 89, 63, 0.8) 100%), url('/first-block-bg.png')",
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'center',
   height: '202px',
   display: 'flex',
   justifyContent: 'space-between',
-  marginTop: '100px',
   zIndex: '2',
   padding: '24px 60px',
 };
