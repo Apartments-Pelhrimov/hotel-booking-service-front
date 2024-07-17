@@ -18,3 +18,51 @@ export const textContainer: SxProps<Theme> = {
   justifyContent: 'center',
   marginBottom: '175px',
 };
+
+export const secondBlock: SxProps<Theme> = {
+  width: '100%',
+  height: '627px',
+  backgroundColor: 'grey.800',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+};
+
+export const secondContentWrapper: SxProps<Theme> = {
+  width: '1050px',
+  height: '310px',
+  display: 'flex',
+  justifyContent: 'space-between',
+};
+
+export const imageSection: SxProps<Theme> = {
+  width: '525px',
+  height: '100%',
+  border: '1px solid green',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+};
+
+export const textSection: SxProps<Theme> = {
+  width: '420px',
+  height: '100%',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'flex-start',
+};
+
+export const textSectionTitle: SxProps<Theme> = {
+  width: '387px',
+  height: '52px',
+  marginBottom: '20px',
+};
+
+export const textSectionText: SxProps<Theme> = {
+  gap: '10px',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'flex-start',
+  typography: 'body2',
+  fontSize: 'medium',
+};
