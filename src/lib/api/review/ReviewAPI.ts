@@ -1,6 +1,6 @@
 import { ReviewBody } from '@/lib/api/review/types';
 import { getBearer } from '@/lib/api/utils';
-import { Review } from '@/types/review';
+import { Review } from '@/lib/constants/types/review';
 
 import { client } from '../client';
 

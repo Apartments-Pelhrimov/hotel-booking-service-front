@@ -1,5 +1,5 @@
 import { getBearer } from '@/lib/api/utils';
-import { User } from '@/types/user';
+import { User } from '@/lib/constants/types/user';
 
 import { client } from '../client';
 

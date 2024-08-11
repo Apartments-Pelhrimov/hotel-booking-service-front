@@ -2,16 +2,12 @@ import { ThemeProvider } from '@mui/system';
 import type { Metadata } from 'next';
 import Head from 'next/head';
 
-import theme from '@/styles/theme';
+import { bodyStyles } from '@/lib/constants/body-styles';
+import theme from '@/lib/styles/theme';
 
 export const metadata: Metadata = {
   title: 'Apartmány Pelhřimov',
   description: 'Apartmány Pelhřimov',
-};
-
-const bodyStyles = {
-  margin: 0,
-  padding: 0,
 };
 
 export default function RootLayout({

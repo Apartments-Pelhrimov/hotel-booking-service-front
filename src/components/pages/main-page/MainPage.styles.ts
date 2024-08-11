@@ -66,3 +66,20 @@ export const textSectionText: SxProps<Theme> = {
   typography: 'body2',
   fontSize: 'medium',
 };
+
+export const thirdBlock: SxProps<Theme> = {
+  width: '100%',
+  height: '274px',
+  display: 'flex',
+  justifyContent: 'space-around',
+};
+
+export const propertyContainer: SxProps<Theme> = {
+  width: '212px',
+  height: '202px',
+  typography: 'body2',
+  fontSize: 'medium',
+  textAlign: 'center',
+  display: 'flex',
+  flexDirection: 'column',
+};
