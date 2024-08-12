@@ -1,4 +1,4 @@
-import { Link } from '@/lib/constants/link';
+import { Link } from '@/lib/constants/for-components/link';
 
 export const MainHeaderLinks: Link[] = [
   {

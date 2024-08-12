@@ -8,7 +8,7 @@ import {
   DropdownArrowSize,
   DropdownMenuItems,
   DropdownProps,
-} from '@/lib/constants/dropdown';
+} from '@/lib/constants/for-components/dropdown';
 
 import * as styles from './Dropdown.styles';
 

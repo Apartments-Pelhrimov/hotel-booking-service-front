@@ -2,7 +2,7 @@ import { ThemeProvider } from '@mui/system';
 import type { Metadata } from 'next';
 import Head from 'next/head';
 
-import { bodyStyles } from '@/lib/constants/body-styles';
+import { bodyStyles } from '@/lib/constants/for-components/body-styles';
 import theme from '@/lib/styles/theme';
 
 export const metadata: Metadata = {

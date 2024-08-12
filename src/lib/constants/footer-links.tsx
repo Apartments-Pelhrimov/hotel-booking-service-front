@@ -1,7 +1,7 @@
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 import Facebook from '@/components/icons/Facebook';
-import { Link } from '@/lib/constants/link';
+import { Link } from '@/lib/constants/for-components/link';
 
 export const FooterMainLinks: Link[] = [
   {
