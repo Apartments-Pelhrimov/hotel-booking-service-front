@@ -1,10 +1,4 @@
-import React from 'react';
-
-export interface Link {
-  text: string;
-  href: string;
-  icon?: React.ReactNode;
-}
+import { Link } from '@/lib/constants/link';
 
 export const MainHeaderLinks: Link[] = [
   {
@@ -13,14 +7,14 @@ export const MainHeaderLinks: Link[] = [
   },
   {
     text: 'POKOJE',
-    href: '/test',
+    href: '/rooms',
   },
   {
     text: 'O NÁS',
-    href: '/test',
+    href: '/about',
   },
   {
     text: 'KONTAKTY',
-    href: '/test',
+    href: '/contacts',
   },
 ];

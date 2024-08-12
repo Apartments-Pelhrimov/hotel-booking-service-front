@@ -1,7 +1,7 @@
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 import Facebook from '@/components/icons/Facebook';
-import { Link } from '@/components/layout/header/interfaces';
+import { Link } from '@/lib/constants/link';
 
 export const FooterMainLinks: Link[] = [
   {
@@ -10,7 +10,7 @@ export const FooterMainLinks: Link[] = [
   },
   {
     text: 'Pokoje',
-    href: '/test',
+    href: '/rooms',
   },
   {
     text: 'Řídit hotel',
@@ -18,11 +18,11 @@ export const FooterMainLinks: Link[] = [
   },
   {
     text: 'O nás',
-    href: '/test',
+    href: '/about',
   },
   {
     text: 'Kontakty',
-    href: '/test',
+    href: '/contacts',
   },
 ];
 

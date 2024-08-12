@@ -4,12 +4,13 @@ import { FC } from 'react';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Box, FormControl, MenuItem, Select } from '@mui/material';
 
-import * as styles from '../../dropdowns/dropdown/Dropdown.styles';
 import {
   DropdownArrowSize,
   DropdownMenuItems,
   DropdownProps,
-} from '../interfaces';
+} from '@/lib/constants/dropdown';
+
+import * as styles from './Dropdown.styles';
 
 const Dropdown: FC<DropdownProps> = ({
   id,

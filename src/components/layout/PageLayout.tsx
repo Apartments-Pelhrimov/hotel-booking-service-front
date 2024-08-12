@@ -1,8 +1,8 @@
 'use client';
 import React, { FC, ReactElement } from 'react';
 
-import Footer from '@/components/layout/footer/Footer';
-import Header from '@/components/layout/header';
+import Footer from '@/components/layout/Footer';
+import Header from '@/components/layout/Header';
 
 interface PageLayoutProps {
   children?: ReactElement;

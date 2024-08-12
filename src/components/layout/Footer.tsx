@@ -6,9 +6,9 @@ import {
   FooterAddress,
   FooterContacts,
   FooterMainLinks,
-} from '@/components/layout/footer/interfaces';
+} from '@/lib/constants/footer-links';
 
-import * as styles from './Footer.styles';
+import * as styles from '../../lib/styles/Footer.styles';
 
 const Footer = () => {
   return (

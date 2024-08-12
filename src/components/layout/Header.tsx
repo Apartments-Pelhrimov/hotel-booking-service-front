@@ -5,11 +5,11 @@ import { AppBar, Box, Link, Toolbar } from '@mui/material';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
-import { MainHeaderLinks } from '@/components/layout/header/interfaces';
 import Button from '@/components/ui/buttons/button';
 import { ButtonSize, ButtonVariant } from '@/components/ui/buttons/interfaces';
+import { MainHeaderLinks } from '@/lib/constants/header-links';
 
-import * as styles from './Header.styles';
+import * as styles from '../../lib/styles/Header.styles';
 
 const Header: FC = () => {
   const path = usePathname() as string;
