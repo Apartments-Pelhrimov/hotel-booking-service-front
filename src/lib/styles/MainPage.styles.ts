@@ -69,17 +69,43 @@ export const textSectionText: SxProps<Theme> = {
 
 export const thirdBlock: SxProps<Theme> = {
   width: '100%',
-  height: '274px',
+  height: '280px',
   display: 'flex',
-  justifyContent: 'space-around',
+  flexDirection: 'row',
+  gap: '60px',
+  justifyContent: 'center',
+  alignItems: 'center',
 };
 
 export const propertyContainer: SxProps<Theme> = {
-  width: '212px',
-  height: '202px',
+  width: '260px',
+  height: '100%',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: '10px',
+};
+
+export const iconContainer: SxProps<Theme> = {
+  width: '56px',
+  height: '56px',
+  backgroundColor: 'grey.900',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+};
+
+export const iconTitle: SxProps<Theme> = {
+  typography: 'h6ElegantBold',
+  color: 'green.500',
+  fontSize: '36px',
+  whiteSpace: 'nowrap',
+};
+
+export const propertyText: SxProps<Theme> = {
   typography: 'body2',
   fontSize: 'medium',
   textAlign: 'center',
-  display: 'flex',
-  flexDirection: 'column',
+  width: '212px',
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 
-import * as styles from '@/components/pages/main-page/MainPage.styles';
+import * as styles from '@/lib/styles/MainPage.styles';
 
 export function VitameBlock() {
   return (
