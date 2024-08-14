@@ -1,7 +1,11 @@
-import { LoginData, LoginResponse, RegisterData } from '@/lib/api/auth/types';
+import {
+  LoginData,
+  LoginResponse,
+  RegisterData,
+} from '@/lib/constants/for-api/auth';
 import StorageUtil from '@/lib/utils/StorageUtil';
 
-import { client } from '../client';
+import { client } from '../constants/for-api/client';
 
 class AuthAPI {
   async register(body: RegisterData) {

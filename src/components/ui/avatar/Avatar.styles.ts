@@ -1,6 +1,6 @@
 import { SxProps, Theme } from '@mui/material/styles';
 
-import { AvatarSize } from '@/components/ui/avatar/types';
+import { AvatarSize } from '@/lib/constants/for-components/avatar-size';
 
 export const avatar = (size: AvatarSize): SxProps<Theme> => ({
   ...(size === AvatarSize.REGULAR && {

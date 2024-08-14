@@ -1,9 +1,8 @@
 import React, { FC } from 'react';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 
-import { User } from '@/lib/constants/types/user';
-
-import Avatar from '../../avatar';
+import Avatar from '@/components/ui/avatar/Avatar';
+import { User } from '@/lib/constants/for-api/user';
 
 import * as styles from './ReviewCard.styles';
 

@@ -2,8 +2,8 @@
 
 import { createTheme } from '@mui/material/styles';
 
-import palette from '@/lib/styles/theme/constants/palette';
-import typography from '@/lib/styles/theme/constants/typography';
+import palette from '@/lib/styles/theme/palette/palette';
+import typography from '@/lib/styles/theme/typography/typography';
 
 const theme = createTheme({
   palette: palette,

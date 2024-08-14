@@ -1,4 +1,8 @@
-import { ButtonColorsMap, ButtonState, ButtonVariant } from '../interfaces';
+import {
+  ButtonColorsMap,
+  ButtonState,
+  ButtonVariant,
+} from '@/lib/constants/for-components/button-types';
 
 const buttonColors: ButtonColorsMap = {
   [ButtonVariant.FILLED]: {

@@ -2,9 +2,9 @@ import React, { FC } from 'react';
 import { UserGroupIcon } from '@heroicons/react/24/outline';
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 
-import Button from '@/components/ui/buttons/button';
-import { ButtonSize } from '@/components/ui/buttons/interfaces';
-import getPeopleEnding from '@/components/ui/cards/apartment-card/utils/getPeopleEnding';
+import Button from '@/components/ui/buttons/button/Button';
+import { ButtonSize } from '@/lib/constants/for-components/button-types';
+import getPeopleEnding from '@/lib/utils/getPeopleEnding';
 
 import * as styles from './ApartmentCard.styles';
 interface ApartmentCardProps {

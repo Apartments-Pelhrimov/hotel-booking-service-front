@@ -1,8 +1,7 @@
-import { ReviewBody } from '@/lib/api/review/types';
-import { getBearer } from '@/lib/api/utils';
-import { Review } from '@/lib/constants/types/review';
+import { Review, ReviewBody } from '@/lib/constants/for-api/review';
+import { getBearer } from '@/lib/constants/for-api/utils';
 
-import { client } from '../client';
+import { client } from '../constants/for-api/client';
 
 class ReviewAPI {
   async getLatest({ page, size, sort }: ReviewBody) {

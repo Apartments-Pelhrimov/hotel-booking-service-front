@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Head from 'next/head';
 
 import { bodyStyles } from '@/lib/constants/for-components/body-styles';
-import theme from '@/lib/styles/theme';
+import theme from '@/lib/styles/theme/theme';
 
 export const metadata: Metadata = {
   title: 'Apartmány Pelhřimov',

@@ -1,8 +1,8 @@
 import { SxProps, Theme } from '@mui/material/styles';
 
-import applyColors from '@/components/ui/buttons/utils/apply-colors';
+import applyColors from '@/lib/constants/for-components/apply-colors';
 
-import { ButtonSize, ButtonState, ButtonVariant } from '../interfaces';
+import { ButtonSize, ButtonState, ButtonVariant } from '../../../../lib/constants/for-components/button-types';
 
 export const button = (
   variant: ButtonVariant,

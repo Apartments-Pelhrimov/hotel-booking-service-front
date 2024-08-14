@@ -5,8 +5,11 @@ import { AppBar, Box, Link, Toolbar } from '@mui/material';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
-import Button from '@/components/ui/buttons/button';
-import { ButtonSize, ButtonVariant } from '@/components/ui/buttons/interfaces';
+import Button from '@/components/ui/buttons/button/Button';
+import {
+  ButtonSize,
+  ButtonVariant,
+} from '@/lib/constants/for-components/button-types';
 import { MainHeaderLinks } from '@/lib/constants/header-links';
 
 import * as styles from '../../lib/styles/Header.styles';

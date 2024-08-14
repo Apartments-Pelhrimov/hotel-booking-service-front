@@ -1,7 +1,7 @@
-import { Proposition } from '@/lib/api/apartments/types';
-import { getBearer } from '@/lib/api/utils';
+import { Proposition } from '@/lib/constants/for-api/apartments';
+import { getBearer } from '@/lib/constants/for-api/utils';
 
-import { client } from '../client';
+import { client } from '../constants/for-api/client';
 
 class ApartmentsAPI {
   async getPropositions() {

@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 import { UserCircleIcon } from '@heroicons/react/24/outline';
 import { Avatar as AvatarMUI } from '@mui/material';
 
-import { AvatarSize } from '@/components/ui/avatar/types';
-import { User } from '@/lib/constants/types/user';
+import { User } from '@/lib/constants/for-api/user';
+import { AvatarSize } from '@/lib/constants/for-components/avatar-size';
 
 import * as styles from './Avatar.styles';
 
